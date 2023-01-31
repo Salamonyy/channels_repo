@@ -16,5 +16,7 @@ jobs:
         run: flutter pub get
       - name: build apk
         run: flutter build apk --debug --split-per-abi  
+      - name: build apk bundle
+        run: flutter build appbundle
       #- name: Run Tests
       #  run: flutter test --no-pub
